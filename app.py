@@ -97,6 +97,7 @@ def enviar_mensagem_ajax():
         envia = chat.enviar_mensagem(mensagem,contato_destinatario)
         return jsonify(envia), 200
     else:
+        # oi
        
         return jsonify({"status": "Erro ao enviar mensagem"}), 500
 
