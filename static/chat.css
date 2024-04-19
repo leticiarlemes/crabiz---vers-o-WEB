@@ -1,0 +1,137 @@
+header {
+    background-color: #ff99cc; /* rosa claro */
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.logo img {
+    width: 100px; /* Ajuste conforme necessário */
+    margin-top: 1px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffccff; /* rosa claro inspirado na Hello Kitty */
+}
+
+
+select[name="usuario"] {
+    background-color: #ff99cc; /* rosa escuro */
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    transition:  0.3s ease;
+    box-shadow: 0 4px 6px #e15199;
+}
+
+
+select[name="usuario"] {
+    background-color: #ff99cc; /* rosa mais escuro */
+}
+
+
+
+.chat-container {
+    width: 800px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid #ff99cc; /* cor da borda inspirada na Hello Kitty */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.chat-header {
+    background-color: #ff99cc; /* cor de fundo do cabeçalho inspirada na Hello Kitty */
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-messages {
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.message {
+    background-color: #ffe6e6; /* cor de fundo das mensagens inspirada na Hello Kitty */
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+.message.sent {
+    background-color: #ffccff; /* cor de fundo das mensagens enviadas inspirada na Hello Kitty */
+    color: #000;
+    align-self: flex-end;
+}
+
+.message-input {
+    display: flex;
+    margin-top: 260px;
+    margin-left: 5px;
+  
+
+}
+
+.message-input input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ff99cc; /* cor da borda do campo de entrada inspirada na Hello Kitty */
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.message-input button {
+    padding: 8px 15px;
+    background-color: #ff99cc; /* cor de fundo do botão de envio inspirada na Hello Kitty */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+.container{
+    display: flex;
+    margin: 50px auto;
+    padding: 20px;
+    align-items: center;
+
+}
+.image-left{
+    flex: 1;
+
+} 
+.image-right {
+    flex: 1;
+  
+  
+}
+
+.image-left img {
+    width: 150px;
+    margin-left: 100px;
+}
+
+.image-right img {
+    width: 150px;
+    margin-left: 100px;
+}
+
+
+
+
+
+footer {
+    background-color: #ff99cc; /* rosa claro */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

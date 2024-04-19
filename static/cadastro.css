@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffccff; /* rosa claro */
+}
+
+header {
+    background-color: #ff99cc; /* rosa claro */
+    padding: 20px 0;
+    text-align: center;
+}
+.login-link {
+    display: block; /* Ensure the link takes the full width available */
+    text-align: center; /* Center the link text */
+    margin-top: 20px; /* Add some top margin for spacing */
+    font-size: 16px; /* Adjust font size as needed */
+    color: #ff69b4; /* Pink color */
+    text-decoration: none; /* Remove default underline */
+}
+
+.login-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.logo img {
+    width: 100px; /* Ajuste conforme necessário */
+    margin-top: 1px;
+}
+
+.content {
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* branco */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(235, 84, 162, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.image-left, .image-right {
+    flex: 1;
+}
+
+.image-left img, .image-right img {
+    max-width: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+input[name="nome"],
+input[name="tel"],
+input[name="senha"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ff99cc; /* rosa claro */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[name="botao"] {
+    background-color: #f87cc6; /* rosa escuro */
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    transition:  0.3s ease;
+    box-shadow: 0 4px 6px rgba(243, 115, 147, 0.1);
+}
+
+button[name="botao"]:hover {
+    background-color: #f349af; /* rosa mais escuro */
+}
+
+footer {
+    background-color: #ff99cc; /* rosa claro */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
